@@ -1,10 +1,8 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <SvgIcon icon-name="phone" color="red"></SvgIcon>
+    <svg-icon name="phone"></svg-icon>
     <el-icon>
       <CirclePlus />
     </el-icon>

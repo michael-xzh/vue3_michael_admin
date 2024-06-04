@@ -11,8 +11,8 @@ import allCom from '@/components'
 
 const app = createApp(App)
 //安装自定义插件
-app.use(ElementUI,{
-    locale:zhCn
+app.use(ElementUI, {
+  locale: zhCn,
 })
 app.use(allCom)
 app.mount('#app')
