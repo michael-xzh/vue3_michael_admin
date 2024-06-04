@@ -4,8 +4,11 @@
 
 <template>
   <div>
-    ss
+    <SvgIcon icon-name="phone" color="red"></SvgIcon>
+    <el-icon>
+      <CirclePlus />
+    </el-icon>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
