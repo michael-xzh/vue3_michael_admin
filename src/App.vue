@@ -1,12 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
 
 <template>
-  <div>
-    <svg-icon name="phone"></svg-icon>
-    <el-icon>
-      <CirclePlus />
-    </el-icon>
-  </div>
+  <router-view>
+  </router-view>
 </template>
 
 <style scoped lang="scss"></style>

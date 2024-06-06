@@ -1,3 +1,4 @@
+// https://vitejs.dev/config/
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
@@ -16,9 +17,9 @@ export default defineConfig(({ command, mode }) => {
         iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')],
         symbolId: 'icon-[dir]-[name]',
       }),
-      viteMockServe({
-        localEnabled: command === 'serve', //保证开发阶段可以使用mock接口
-      }),
+      // viteMockServe({
+      //   localEnabled: command === 'serve', //保证开发阶段可以使用mock接口
+      // }),
     ],
     resolve: {
       alias: {
